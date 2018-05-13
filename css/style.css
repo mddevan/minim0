@@ -1,0 +1,297 @@
+/*
+font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    background-color: #FFFFFF;
+}
+
+/*header start*/
+
+header {
+    min-height: 100px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100px;
+}
+
+.header_logo {
+    width: 20%;
+    float: left;
+    color: #333333;
+    font-size: 30px;
+
+
+}
+
+header p {
+    font-family: 'Inconsolata', monospace;
+    margin-top: 52px;
+}
+
+.hedaer_nav {
+    width: 60%;
+    float: right;
+}
+
+.hedaer_nav ul {
+    float: right;
+}
+
+.hedaer_nav ul li {
+    float: left;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.hedaer_nav ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    padding: 10px 50px;
+}
+
+.hedaer_nav ul li:last-child a {
+    margin-right: -18px;
+
+}
+
+/*header end*/
+
+/*banner start*/
+
+.banner {}
+
+.banner_img {}
+
+.banner_img img {
+    width: 100%;
+}
+
+/*banner end*/
+
+/*service start*/
+
+.service {
+    overflow: hidden;
+
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.wrapper_2 {
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+.service_content {}
+
+.service_content h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.service_text {
+    font-size: 14px;
+}
+
+.service_common {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.service_common:first-child {
+    margin-bottom: 20px;
+}
+
+.service_common:last-child {
+    margin-top: 40px;
+}
+
+/*service end*/
+
+/*blog start*/
+
+.blog {}
+
+.blog_content {
+    overflow: hidden;
+}
+
+.single {
+    width: 47%;
+    overflow: hidden;
+    float: left;
+}
+
+.single_img {}
+
+.single_img img {
+    width: 100%;
+}
+
+.blog_common {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.blog h1 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.blog_text {
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.single:nth-child(even) {
+    margin-left: 6%;
+}
+
+.single:nth-child(4) {
+    margin-top: 100px;
+
+}
+
+.single:nth-child(3) {
+    margin-top: 100px;
+
+}
+
+/*blog end*/
+
+/*news start*/
+
+.news {
+    min-height: 240px;
+    background-color: #F0F0F0;
+    margin-top: 100px;
+    margin-bottom: 75px;
+
+}
+
+.wrapper_3 {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+
+
+}
+
+.news_content {
+    text-align: center;
+    margin-top: 54px;
+}
+
+.news h1 {
+    font-size: 30px;
+}
+
+.news_content form {
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 60px;
+
+}
+
+.email_box {
+    background: transparent;
+    border: none;
+    width: 350px;
+    border-bottom: 1px solid black;
+
+}
+
+.news_content button {
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/*news end*/
+
+/*extra strat*/
+
+.extra_button {
+    min-height: 250px;
+
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.extra_button button {
+    padding: 17px 33px;
+    background: transparent;
+    border: 1px solid black;
+    margin-top: 100px;
+}
+
+/*extra end*/
+
+/*footer start*/
+
+footer {
+    background-color: #F0F0F0;
+    min-height: 80px;
+    margin-top: 55px;
+    overflow: hidden;
+}
+
+.footer_left {
+    width: 30%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.footer_left a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.footer_right {
+    width: 30%;
+    float: left;
+}
+
+.footer_right img {
+    margin-top: 27px;
+    margin-left: 580px;
+}
+
+/*footer end*/
